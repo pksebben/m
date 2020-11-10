@@ -1,0 +1,953 @@
+execve("/home/coffee/.cargo/bin/cargo", ["cargo", "run"], 0x7fff23392cd8 /* 52 vars */) = 0
+brk(NULL)                               = 0x55db6d37b000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=158234, ...}) = 0
+mmap(NULL, 158234, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5498e8f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5498e8d000
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5498a8b000
+mprotect(0x7f5498a8e000, 2093056, PROT_NONE) = 0
+mmap(0x7f5498c8d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5498c8d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5498883000
+mprotect(0x7f549888a000, 2093056, PROT_NONE) = 0
+mmap(0x7f5498a89000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f5498a89000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5498664000
+mprotect(0x7f549867e000, 2093056, PROT_NONE) = 0
+mmap(0x7f549887d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f549887d000
+mmap(0x7f549887f000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f549887f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f549844c000
+mprotect(0x7f5498463000, 2093056, PROT_NONE) = 0
+mmap(0x7f5498662000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f5498662000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f549805b000
+mprotect(0x7f5498242000, 2097152, PROT_NONE) = 0
+mmap(0x7f5498442000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f5498442000
+mmap(0x7f5498448000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5498448000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5497cbd000
+mprotect(0x7f5497e5a000, 2093056, PROT_NONE) = 0
+mmap(0x7f5498059000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f5498059000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5498e8b000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5498e88000
+arch_prctl(ARCH_SET_FS, 0x7f5498e88b40) = 0
+mprotect(0x7f5498442000, 16384, PROT_READ) = 0
+mprotect(0x7f5498059000, 4096, PROT_READ) = 0
+mprotect(0x7f5498662000, 4096, PROT_READ) = 0
+mprotect(0x7f549887d000, 4096, PROT_READ) = 0
+mprotect(0x7f5498a89000, 4096, PROT_READ) = 0
+mprotect(0x7f5498c8d000, 4096, PROT_READ) = 0
+mprotect(0x55db6bf0b000, 671744, PROT_READ) = 0
+mprotect(0x7f5498eb6000, 4096, PROT_READ) = 0
+munmap(0x7f5498e8f000, 158234)          = 0
+set_tid_address(0x7f5498e88e10)         = 4910
+set_robust_list(0x7f5498e88e20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f5498669cb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f5498676890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f5498669d50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f5498676890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f5498099f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+brk(NULL)                               = 0x55db6d37b000
+brk(0x55db6d39c000)                     = 0x55db6d39c000
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "55db6b42d000-55db6bd0c000 r-xp 0"..., 1024) = 1024
+read(3, "20845332                   /lib/"..., 1024) = 1024
+read(3, "019000 08:02 20845465           "..., 1024) = 1024
+read(3, "98c8f000 rw-p 00003000 08:02 208"..., 1024) = 833
+close(3)                                = 0
+sched_getaffinity(4910, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x55db6b920ac0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f5498676890}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55db6b920ac0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f5498676890}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5498eb3000
+mprotect(0x7f5498eb3000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7f5498eb4000, ss_flags=0, ss_size=8192}, NULL) = 0
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+readlink("/proc/self/exe", "/home/coffee/.cargo/bin/cargo", 256) = 29
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+statx(0, NULL, AT_STATX_SYNC_AS_STAT, STATX_ALL, NULL) = -1 EFAULT (Bad address)
+statx(AT_FDCWD, "/home/coffee/.cargo/bin/rustup-init", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffe932af3d0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.terminfo", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffe932ae4d0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/terminfo", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/etc/terminfo/x/xterm-256color", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffe932ae4d0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/terminfo/78/xterm-256color", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffe932ae4d0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/lib/terminfo", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/lib/terminfo/x/xterm-256color", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3525, ...}) = 0
+openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+read(3, "\32\1%\0&\0\17\0\235\1\2\6xterm-256color|xterm"..., 8192) = 3525
+getrandom("\xca\xf4\x29\xc4\x26\x94\x46\xe2\x49\x6a\x55\x61\xbc\xdc\x7d\x7c", 16, GRND_NONBLOCK) = 16
+close(3)                                = 0
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+statx(AT_FDCWD, "/home/coffee/.rustup", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/rustup/settings.toml", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.rustup/settings.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=77, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/settings.toml", O_RDONLY|O_CLOEXEC) = 3
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=77, ...}) = 0
+read(3, "default_toolchain = \"stable\"\npro"..., 78) = 77
+read(3, "", 1)                          = 0
+close(3)                                = 0
+brk(0x55db6d3c2000)                     = 0x55db6d3c2000
+brk(0x55db6d3bf000)                     = 0x55db6d3bf000
+mmap(NULL, 200704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5498e57000
+brk(0x55db6d3ee000)                     = 0x55db6d3ee000
+munmap(0x7f5498e57000, 200704)          = 0
+brk(0x55db6d436000)                     = 0x55db6d436000
+uname({sysname="Linux", nodename="bawls", ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.rustup", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code/monstrosity", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code/monstrosity/m", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code/monstrosity", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code/monstrosity/m", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code/monstrosity", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0775, stx_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/Documents/code", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/Documents", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=12288, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+openat(AT_FDCWD, "/rust-toolchain", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+uname({sysname="Linux", nodename="bawls", ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=19686744, ...}) = 0
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f5498099f20}, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f5498099f20}, 8) = 0
+execve("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo", ["/home/coffee/.rustup/toolchains/"..., "run"], 0x55db6d3f26a0 /* 57 vars */) = 0
+brk(NULL)                               = 0x5586598c8000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/home/coffee/.rustup/toolchains/"..., 4096) = 73
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f652bfb5000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/haswell/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/haswell", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/tls", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/haswell/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/haswell", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/x86_64", 0x7ffd866ee150) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=158234, ...}) = 0
+mmap(NULL, 158234, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f652bf8e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652bb8c000
+mprotect(0x7f652bb8f000, 2093056, PROT_NONE) = 0
+mmap(0x7f652bd8e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f652bd8e000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652b984000
+mprotect(0x7f652b98b000, 2093056, PROT_NONE) = 0
+mmap(0x7f652bb8a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f652bb8a000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652b765000
+mprotect(0x7f652b77f000, 2093056, PROT_NONE) = 0
+mmap(0x7f652b97e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f652b97e000
+mmap(0x7f652b980000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f652b980000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652b54d000
+mprotect(0x7f652b564000, 2093056, PROT_NONE) = 0
+mmap(0x7f652b763000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f652b763000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652b15c000
+mprotect(0x7f652b343000, 2097152, PROT_NONE) = 0
+mmap(0x7f652b543000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f652b543000
+mmap(0x7f652b549000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f652b549000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/../lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f652adbe000
+mprotect(0x7f652af5b000, 2093056, PROT_NONE) = 0
+mmap(0x7f652b15a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f652b15a000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f652bf8c000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f652bf89000
+arch_prctl(ARCH_SET_FS, 0x7f652bf89b00) = 0
+mprotect(0x7f652b543000, 16384, PROT_READ) = 0
+mprotect(0x7f652b15a000, 4096, PROT_READ) = 0
+mprotect(0x7f652b763000, 4096, PROT_READ) = 0
+mprotect(0x7f652b97e000, 4096, PROT_READ) = 0
+mprotect(0x7f652bb8a000, 4096, PROT_READ) = 0
+mprotect(0x7f652bd8e000, 4096, PROT_READ) = 0
+mprotect(0x5586593d2000, 647168, PROT_READ) = 0
+mprotect(0x7f652bfb7000, 4096, PROT_READ) = 0
+munmap(0x7f652bf8e000, 158234)          = 0
+set_tid_address(0x7f652bf89dd0)         = 4910
+set_robust_list(0x7f652bf89de0, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f652b76acb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f652b777890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f652b76ad50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f652b777890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f652b19af20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+brk(NULL)                               = 0x5586598c8000
+brk(0x5586598e9000)                     = 0x5586598e9000
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "558658470000-5586591d3000 r-xp 0"..., 1024) = 1024
+read(3, "000 r-xp 00000000 08:02 20845332"..., 1024) = 1024
+read(3, "652b97e000 ---p 0001a000 08:02 2"..., 1024) = 1024
+read(3, "27.so\n7f652bd8e000-7f652bd8f000 "..., 1024) = 1014
+close(3)                                = 0
+sched_getaffinity(4910, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x558658ecd0e0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f652b777890}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x558658ecd0e0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7f652b777890}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f652bfb2000
+mprotect(0x7f652bfb2000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7f652bfb3000, ss_flags=0, ss_size=8192}, NULL) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getcwd("/home/coffee/Documents/code/monstrosity/m", 512) = 42
+getrandom("\x88\x85\x40\x49\x88\xa9\xcb\x27\x11\xd9\x4a\xba\xed\xd3\x36\x1f", 16, GRND_NONBLOCK) = 16
+brk(0x55865990a000)                     = 0x55865990a000
+brk(0x55865992b000)                     = 0x55865992b000
+brk(0x55865994c000)                     = 0x55865994c000
+brk(0x55865996d000)                     = 0x55865996d000
+brk(0x55865992d000)                     = 0x55865992d000
+statx(0, NULL, AT_STATX_SYNC_AS_STAT, STATX_ALL, NULL) = -1 EFAULT (Bad address)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.cargo/config", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/.cargo/config.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec190) = -1 ENOENT (No such file or directory)
+ioctl(2, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+statx(AT_FDCWD, "/var/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/share/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/openssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/usr/lib/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/usr/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/openssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/pki/ca-trust/extracted/pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/pki/tls", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/etc/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/data/data/com.termux/files/usr/etc/tls", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/boot/system/data/ssl", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ecee0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/cert.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/certs.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/certs/ca-certificates.crt", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/certs/ca-root-nss.crt", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/certs/ca-bundle.crt", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/CARootCertificates.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/tls-ca-bundle.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/local/share/certs", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/lib/ssl/cert.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/lib/ssl/certs.pem", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ed020) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/usr/lib/ssl/certs/ca-certificates.crt", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=207436, ...}) = 0
+statx(AT_FDCWD, "/usr/lib/ssl/certs", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=16384, ...}) = 0
+futex(0x55865947b790, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b798, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b7a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b848, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b7b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b7b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x558659478e20, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x558659478d10, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b7a8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/checkout/obj/build/x86_64-unknown-linux-gnu/stage1-tools/x86_64-unknown-linux-gnu/release/build/openssl-sys-6adb4f1e70ff95e3/out/openssl-build/install/ssl/openssl.cnf", O_RDONLY) = -1 ENOENT (No such file or directory)
+futex(0x55865947b7c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+sysinfo({uptime=25623, loads=[20800, 38560, 39328], totalram=8219807744, freeram=1689305088, sharedram=594804736, bufferram=276955136, totalswap=2147479552, freeswap=2147479552, procs=990, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+futex(0x558659478c90, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x558659478c98, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getuid()                                = 1000
+geteuid()                               = 1000
+futex(0x55865947b728, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x558659478ae8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x55865947b8d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getpid()                                = 4910
+getrandom("\x09\xc8\xfc\x23\x3f\xcf\x42\x8b\x06\x8e\x1a\x9f\x19\x25\x28\x54\xd0\xd7\x94\x26\xe3\x9e\x77\x50\x28\x42\xfa\x3c\x86\x9f\x9e\x3e", 32, 0) = 32
+getpid()                                = 4910
+futex(0x55865947b8a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getpid()                                = 4910
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/usr/lib/ssl/certs/ca-certificates.crt", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=207436, ...}) = 0
+read(3, "-----BEGIN CERTIFICATE-----\nMIIH"..., 4096) = 4096
+read(3, "8B1\nRXxlDPiyN8+sD8+Nb/kZ94/sHvJw"..., 4096) = 4096
+read(3, "sxOBi0cQ+azcgOno4uG+GMmIPLHzHxRE"..., 4096) = 4096
+read(3, "k4gmVBtWVyuEklut89pMF\nu+1z6S3RdT"..., 4096) = 4096
+read(3, "H+fO6AgonB8Xx1sfT\n4PsJYGw=\n-----"..., 4096) = 4096
+read(3, "wBl\nAGwAbwBuAGEAIAAwADgAMAAxADcw"..., 4096) = 4096
+read(3, "AMMF0J1eXBhc3Mg\nQ2xhc3MgMyBSb290"..., 4096) = 4096
+read(3, "wggIKAoICAQDXXWvNED8fBVnVBU03\nsQ"..., 4096) = 4096
+read(3, "NBgkqhkiG9w0BAQwFADCB\nhTELMAkGA1"..., 4096) = 4096
+read(3, "+PhmiM1b8XcF4LVzbsF9Ri6OSyemzTUK"..., 4096) = 4096
+read(3, "uoD6o7BlXGEilXCNQ314cnrUlZp5Gr\nR"..., 4096) = 4096
+read(3, "p8SMoclm2q8KMZiYcdywm\ndjWLKKdpoP"..., 4096) = 4096
+read(3, "ZG9jYS5jb20v\nQUFBQ2VydGlmaWNhdGV"..., 4096) = 4096
+read(3, "AaOCASQw\nggEgMA8GA1UdEwEB/wQFMAM"..., 4096) = 4096
+read(3, "l+2qp/C3xag/lRbQ/6GW6whfGHdPAgMB"..., 4096) = 4096
+read(3, "-\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqa"..., 4096) = 4096
+brk(0x55865994e000)                     = 0x55865994e000
+read(3, "uxeTsiT+CFhmzTrBcZe7FsavOvJz82sN"..., 4096) = 4096
+read(3, "FUzE7MDkGA1UEChMyQWdlbmNpYSBDYXR"..., 4096) = 4096
+read(3, "hURlIIM7j+VrxGrD9cv3h8Dj1csHsm7m"..., 4096) = 4096
+read(3, "f8EBTADAQH/MB0GA1UdDgQWBBRqciZ60"..., 4096) = 4096
+read(3, "3f9oQIIGHWAVlqnEQRr+92/ZV+zmEwu3"..., 4096) = 4096
+read(3, "lBjobFS1J72HGrH4oVpjuDWtdYAVHGTE"..., 4096) = 4096
+read(3, "TaWdu\nMHYwEAYHKoZIzj0CAQYFK4EEAC"..., 4096) = 4096
+read(3, "TKJd+82cEHhXXipa0095MJ6RMG3NzdvQ"..., 4096) = 4096
+read(3, "/ZM/iZx4mER\ndEr/VxqHD3VILs9RaReg"..., 4096) = 4096
+brk(0x55865996f000)                     = 0x55865996f000
+brk(0x55865996e000)                     = 0x55865996e000
+read(3, "FADCBpjELMAkGA1UEBhMCR1Ix\nDzANBg"..., 4096) = 4096
+read(3, "xQZBKT5ZPt0m9STJEadao0xAH0ahmbWn"..., 4096) = 4096
+read(3, "D2cyOEEBsB5wIDAQABo0IwQDAOBgNVHQ"..., 4096) = 4096
+read(3, "SAEOzA5MDcGByuB\nKwEBAQowLDAqBggr"..., 4096) = 4096
+read(3, "Jp\ndHkwHhcNMDYxMjAxMDAwMDAwWhcNM"..., 4096) = 4096
+read(3, "VuVHJ1c3QxHTAbBgNVBAMMFE9w\nZW5Uc"..., 4096) = 4096
+read(3, "iAARK7liuTcpm\n3gY6oxH84Bjwbhy6LT"..., 4096) = 4096
+read(3, "cfCkeF9OrYMh3jRJjehZrJ3ydlo2\n8hP"..., 4096) = 4096
+read(3, "u6GBVv/9YUZINJ0gpnIdsPNWNg\nKCLjs"..., 4096) = 4096
+read(3, "rFc/ZSXPsoaP\n0Aj/uHYUbt7lJ+yreLV"..., 4096) = 4096
+brk(0x55865998f000)                     = 0x55865998f000
+brk(0x55865998e000)                     = 0x55865998e000
+read(3, "CemB+vNH06NjMGEwHQYDVR0OBBYEFILR"..., 4096) = 4096
+read(3, "Jsz\ni1oURaTnkBbR31fSIRCkF/3frNYf"..., 4096) = 4096
+read(3, "3sUZdbcDE3R3n4MqzvEFb46VqZab3ZpU"..., 4096) = 4096
+read(3, "QDs/nxfRN0Av+7oeX6AHkcpmZBiFxgV6"..., 4096) = 4096
+read(3, "AgMBAAGjQjBAMA8GA1UdEwEB/wQF\nMAM"..., 4096) = 4096
+read(3, "EwpTY290dHNkYWxlMSUwIwYDVQQKExxT"..., 4096) = 4096
+read(3, "3GcRm25xBWNOHkDRUjvxF3XCO6HOSKGs"..., 4096) = 4096
+read(3, "0wgS29rIFNlcnRpZmlrYXNpIC0gU3Vy\n"..., 4096) = 4096
+brk(0x5586599af000)                     = 0x5586599af000
+brk(0x5586599ae000)                     = 0x5586599ae000
+read(3, "lCmtYR5VPOL8zy2gXE/uJQxDqGfczafh"..., 4096) = 4096
+read(3, "0/Z1pHWWbVY=\n-----END CERTIFICAT"..., 4096) = 4096
+read(3, "7Ud+ez1m7xMTiF88\noWP7+ayHNZ/zgp6"..., 4096) = 4096
+read(3, "ldHdvcmsxLjAsBgNVBAMT\nJVVTRVJUcn"..., 4096) = 4096
+read(3, "-----END CERTIFICATE-----\n-----B"..., 4096) = 4096
+read(3, "W1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob"..., 4096) = 4096
+read(3, "AQ\nUySQi2bJqIirr1qjAOm+ukbuW3N7L"..., 4096) = 4096
+read(3, "NZAqdE8hhuvU5HIe6uL17In/2\n/qxAee"..., 4096) = 2636
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+brk(0x5586599cf000)                     = 0x5586599cf000
+brk(0x5586599cd000)                     = 0x5586599cd000
+futex(0x558659478cc0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x558659478644, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+access("/home/coffee/.gitconfig", F_OK) = 0
+stat("/home/coffee/.gitconfig", {st_mode=S_IFREG|0644, st_size=62, ...}) = 0
+access("/home/coffee/.gitconfig", F_OK) = 0
+access("/home/coffee/.gitconfig", R_OK) = 0
+stat("/home/coffee/.gitconfig", {st_mode=S_IFREG|0644, st_size=62, ...}) = 0
+stat("/home/coffee/.gitconfig", {st_mode=S_IFREG|0644, st_size=62, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/.gitconfig", O_RDONLY) = 3
+read(3, "[user]\n\temail = benmorsillo@gmai"..., 62) = 62
+close(3)                                = 0
+access("/home/coffee/.config/git/config", F_OK) = -1 ENOENT (No such file or directory)
+access("/etc/gitconfig", F_OK)          = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=217, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.toml", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=217, ...}) = 0
+read(3, "[package]\nname = \"m\"\nversion = \""..., 218) = 217
+read(3, "", 1)                          = 0
+close(3)                                = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/lib.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e8c60) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/main.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=190, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/bin", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/examples", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/tests", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/benches", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/build.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e8c10) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README.md", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e9050) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README.txt", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e9050) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e9050) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/Cargo.toml", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866ec040) = -1 ENOENT (No such file or directory)
+sched_getaffinity(0, 128, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+statx(AT_FDCWD, "/home/coffee/.cargo/bin/rustc", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=12391632, ...}) = 0
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/.cargo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.cargo/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.cargo/bin/rustc", {st_mode=S_IFREG|0755, st_size=12391632, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.cargo/bin/rustc", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=12391632, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/rustc", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2689392, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/.rustc_info.json", O_RDONLY|O_CLOEXEC) = 3
+statx(3, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=771, ...}) = 0
+read(3, "{\"rustc_fingerprint\":69191322061"..., 772) = 771
+read(3, "", 1)                          = 0
+close(3)                                = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.lock", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=132, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.lock", O_RDONLY|O_CLOEXEC) = 3
+statfs("/home/coffee/Documents/code/monstrosity/m/Cargo.lock", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(3, LOCK_SH|LOCK_NB)               = 0
+read(3, "# This file is automatically @ge", 32) = 32
+read(3, "nerated by Cargo.\n# It is not in", 32) = 32
+read(3, "tended for manual editing.\n[[pac"..., 64) = 64
+read(3, ".0\"\n", 128)                  = 4
+read(3, "", 124)                        = 0
+flock(3, LOCK_UN)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.cargo/.package-cache", O_RDWR|O_CREAT|O_CLOEXEC, 0666) = 3
+statfs("/home/coffee/.cargo/.package-cache", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(3, LOCK_EX|LOCK_NB)               = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.toml", O_RDONLY|O_CLOEXEC) = 4
+statx(4, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=217, ...}) = 0
+read(4, "[package]\nname = \"m\"\nversion = \""..., 218) = 217
+read(4, "", 1)                          = 0
+close(4)                                = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/lib.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e2ed0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/main.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=190, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/bin", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/examples", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/tests", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/benches", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/build.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e2e80) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README.md", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e32c0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README.txt", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e32c0) = -1 ENOENT (No such file or directory)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/README", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffd866e32c0) = -1 ENOENT (No such file or directory)
+flock(3, LOCK_UN)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/Cargo.lock", O_RDONLY|O_CLOEXEC) = 3
+statfs("/home/coffee/Documents/code/monstrosity/m/Cargo.lock", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(3, LOCK_SH|LOCK_NB)               = 0
+read(3, "# This file is automatically @ge", 32) = 32
+read(3, "nerated by Cargo.\n# It is not in", 32) = 32
+read(3, "tended for manual editing.\n[[pac"..., 64) = 64
+read(3, ".0\"\n", 128)                  = 4
+read(3, "", 124)                        = 0
+flock(3, LOCK_UN)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/.cargo/.package-cache", O_RDWR|O_CREAT|O_CLOEXEC, 0666) = 3
+statfs("/home/coffee/.cargo/.package-cache", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(3, LOCK_EX|LOCK_NB)               = 0
+flock(3, LOCK_UN)                       = 0
+close(3)                                = 0
+getuid()                                = 1000
+geteuid()                               = 1000
+getgid()                                = 1000
+getegid()                               = 1000
+openat(AT_FDCWD, "/checkout/obj/build/x86_64-unknown-linux-gnu/stage1-tools/x86_64-unknown-linux-gnu/release/build/openssl-sys-6adb4f1e70ff95e3/out/openssl-build/install/ssl/openssl.cnf", O_RDONLY) = -1 ENOENT (No such file or directory)
+socket(AF_INET6, SOCK_DGRAM, IPPROTO_IP) = 3
+close(3)                                = 0
+socketpair(AF_UNIX, SOCK_STREAM, 0, [3, 4]) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+openat(AT_FDCWD, "/home/coffee/.cargo/.package-cache", O_RDWR|O_CREAT|O_CLOEXEC, 0666) = 5
+statfs("/home/coffee/.cargo/.package-cache", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(5, LOCK_EX|LOCK_NB)               = 0
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+openat(AT_FDCWD, "/home/coffee/.cargo/.package-cache", O_RDWR|O_CREAT|O_CLOEXEC, 0666) = 5
+statfs("/home/coffee/.cargo/.package-cache", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(5, LOCK_EX|LOCK_NB)               = 0
+flock(5, LOCK_UN)                       = 0
+close(5)                                = 0
+pipe2([5, 6], O_CLOEXEC)                = 0
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+write(6, "|", 1)                        = 1
+poll([{fd=5, events=POLLIN}], 1, -1)    = 1 ([{fd=5, revents=POLLIN}])
+read(5, "|", 1)                         = 1
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.cargo-lock", O_RDWR|O_CREAT|O_CLOEXEC, 0666) = 7
+statfs("/home/coffee/Documents/code/monstrosity/m/target/debug/.cargo-lock", {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=119788210, f_bfree=31177994, f_bavail=25075646, f_files=30498816, f_ffree=28972558, f_fsid={val=[3278532406, 3117803474]}, f_namelen=255, f_frsize=4096, f_flags=ST_VALID|ST_RELATIME}) = 0
+flock(7, LOCK_EX|LOCK_NB)               = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug/deps", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug/incremental", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/incremental", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug/examples", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/examples", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+mkdir("/home/coffee/Documents/code/monstrosity/m/target/debug/build", 0777) = -1 EEXIST (File exists)
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/build", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint/m-41fbb631bd427b19", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/m-41fbb631bd427b19", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=3231864, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint/m-41fbb631bd427b19/dep-bin-m", O_RDONLY|O_CLOEXEC) = 8
+statx(8, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=24, ...}) = 0
+read(8, "\1\0\0\0\0\v\0\0\0src/main.rs\0\0\0\0", 50) = 24
+read(8, "", 26)                         = 0
+close(8)                                = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint/m-41fbb631bd427b19/dep-bin-m", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=24, ...}) = 0
+statx(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/src/main.rs", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=190, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint/m-41fbb631bd427b19/bin-m", O_RDONLY|O_CLOEXEC) = 8
+statx(8, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16, ...}) = 0
+read(8, "b640d420ed9e6df3", 34)         = 16
+read(8, "", 18)                         = 0
+close(8)                                = 0
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x558658e95100, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f652b777890}, NULL, 8) = 0
+futex(0x7f652bd8f0c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f652abbd000
+mprotect(0x7f652abbe000, 2097152, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f652adbcbf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f652adbd9d0, tls=0x7f652adbd700, child_tidptr=0x7f652adbd9d0) = 4911
+mmap(NULL, 2101248, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f652a9bc000
+mprotect(0x7f652a9bd000, 2097152, PROT_READ|PROT_WRITE) = 0
+clone(child_stack=0x7f652abbbbf0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f652abbc9d0, tls=0x7f652abbc700, child_tidptr=0x7f652abbc9d0) = 4912
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(2, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[1m", 4)                   = 4
+write(2, "\33[36m", 5)                  = 5
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, "Building", 8Building)                 = 8
+write(2, "\33[0m", 4)                   = 4
+write(2, " ", 1 )                        = 1
+write(2, "[                               "..., 65[                                                           ] 0/1) = 65
+)                       = 1
+write(2, "\33[K", 3)                    = 3
+write(2, "\33[0m\33[1m\33[33mwarning\33[0m\33[0m\33[1m"..., 561warning: unused variable: `hello`
+  --> src/main.rs:10:9
+   |
+10 |     let hello = output.stdout;
+   |         ^^^^^ help: if this is intentional, prefix it with an underscore: `_hello`
+   |
+   = note: `#[warn(unused_variables)]` on by default
+) = 561
+write(2, "\n", 1
+)                       = 1
+write(2, "\33[0m\33[1m\33[33mwarning\33[0m\33[0m\33[1m"..., 56warning: 1 warning emitted
+) = 56
+write(2, "\n", 1
+)                       = 1
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[1m", 4)                   = 4
+write(2, "\33[32m", 5)                  = 5
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, "Finished", 8Finished)                 = 8
+write(2, "\33[0m", 4)                   = 4
+write(2, " ", 1 )                        = 1
+write(2, "dev [unoptimized + debuginfo] ta"..., 48dev [unoptimized + debuginfo] target(s) in 0.03s) = 48
+write(2, "\n", 1
+)                       = 1
+futex(0x5586599205c8, FUTEX_WAKE_PRIVATE, 1) = 1
+futex(0x7f652adbd9d0, FUTEX_WAIT, 4911, NULL) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/.fingerprint/m-41fbb631bd427b19/dep-bin-m", O_RDONLY|O_CLOEXEC) = 8
+statx(8, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=24, ...}) = 0
+read(8, "\1\0\0\0\0\v\0\0\0src/main.rs\0\0\0\0", 50) = 24
+read(8, "", 26)                         = 0
+close(8)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/m.d", O_RDONLY|O_CLOEXEC) = 8
+statx(8, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=112, ...}) = 0
+read(8, "/home/coffee/Documents/code/mons"..., 113) = 112
+read(8, "", 1)                          = 0
+close(8)                                = 0
+close(5)                                = 0
+close(6)                                = 0
+flock(7, LOCK_UN)                       = 0
+close(7)                                = 0
+close(3)                                = 0
+close(4)                                = 0
+readlink("/proc/self/exe", "/home/coffee/.rustup/toolchains/"..., 256) = 73
+lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+lstat("/home/coffee/.rustup", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.rustup/toolchains", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+lstat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo", {st_mode=S_IFREG|0755, st_size=19686744, ...}) = 0
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[0m", 4)                   = 4
+write(2, "\33[1m", 4)                   = 4
+write(2, "\33[32m", 5)                  = 5
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, " ", 1 )                        = 1
+write(2, "Running", 7Running)                  = 7
+write(2, "\33[0m", 4)                   = 4
+write(2, " ", 1 )                        = 1
+write(2, "`target/debug/m`", 16`target/debug/m`)        = 16
+write(2, "\n", 1
+)                       = 1
+chdir("/home/coffee/Documents/code/monstrosity/m") = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_DFL, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f652b19af20}, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f652b19af20}, 8) = 0
+execve("target/debug/m", ["target/debug/m"], 0x5586599b6930 /* 73 vars */) = 0
+brk(NULL)                               = 0x55739c0cc000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2704fa000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/tls", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/deps", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/tls/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/tls/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/tls/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/tls", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/Documents/code/monstrosity/m/target/debug", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/tls", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/tls", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/haswell", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/x86_64", 0x7ffd6d060ba0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=158234, ...}) = 0
+mmap(NULL, 158234, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc2704d3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2700d1000
+mprotect(0x7fc2700d4000, 2093056, PROT_NONE) = 0
+mmap(0x7fc2702d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc2702d3000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc26fec9000
+mprotect(0x7fc26fed0000, 2093056, PROT_NONE) = 0
+mmap(0x7fc2700cf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc2700cf000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc26fcaa000
+mprotect(0x7fc26fcc4000, 2093056, PROT_NONE) = 0
+mmap(0x7fc26fec3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7fc26fec3000
+mmap(0x7fc26fec5000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc26fec5000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=96616, ...}) = 0
+mmap(NULL, 2192432, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc26fa92000
+mprotect(0x7fc26faa9000, 2093056, PROT_NONE) = 0
+mmap(0x7fc26fca8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fc26fca8000
+close(3)                                = 0
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/deps/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/Documents/code/monstrosity/m/target/debug/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/coffee/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc26f6a1000
+mprotect(0x7fc26f888000, 2097152, PROT_NONE) = 0
+mmap(0x7fc26fa88000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7fc26fa88000
+mmap(0x7fc26fa8e000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc26fa8e000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2704d1000
+arch_prctl(ARCH_SET_FS, 0x7fc2704d2440) = 0
+mprotect(0x7fc26fa88000, 16384, PROT_READ) = 0
+mprotect(0x7fc26fca8000, 4096, PROT_READ) = 0
+mprotect(0x7fc26fec3000, 4096, PROT_READ) = 0
+mprotect(0x7fc2700cf000, 4096, PROT_READ) = 0
+mprotect(0x7fc2702d3000, 4096, PROT_READ) = 0
+mprotect(0x55739a656000, 12288, PROT_READ) = 0
+mprotect(0x7fc2704fc000, 4096, PROT_READ) = 0
+munmap(0x7fc2704d3000, 158234)          = 0
+set_tid_address(0x7fc2704d2710)         = 4910
+set_robust_list(0x7fc2704d2720, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fc26fcafcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fc26fcbc890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fc26fcafd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fc26fcbc890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[PIPE], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc26f6dff20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+brk(NULL)                               = 0x55739c0cc000
+brk(0x55739c0ed000)                     = 0x55739c0ed000
+openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "55739a410000-55739a457000 r-xp 0"..., 1024) = 1024
+read(3, "/lib/x86_64-linux-gnu/libgcc_s.s"..., 1024) = 1024
+read(3, "0845473                   /lib/x"..., 1024) = 1024
+read(3, "o\n7fc2704fd000-7fc2704fe000 rw-p"..., 1024) = 482
+close(3)                                = 0
+sched_getaffinity(4910, 32, [0, 1, 2, 3, 4, 5, 6, 7]) = 8
+rt_sigaction(SIGSEGV, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x55739a42ba20, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fc26fcbc890}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55739a42ba20, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK|SA_SIGINFO, sa_restorer=0x7fc26fcbc890}, NULL, 8) = 0
+sigaltstack(NULL, {ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=0}) = 0
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2704f7000
+mprotect(0x7fc2704f7000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7fc2704f8000, ss_flags=0, ss_size=8192}, NULL) = 0
+openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 3
+fcntl(3, F_GETFD)                       = 0x1 (flags FD_CLOEXEC)
+pipe2([4, 5], O_CLOEXEC)                = 0
+pipe2([6, 7], O_CLOEXEC)                = 0
+futex(0x7fc2702d40c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=512*1024, rlim_max=512*1024}) = 0
+mmap(NULL, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fc2704ee000
+rt_sigprocmask(SIG_BLOCK, ~[], [], 8)   = 0
+clone(child_stack=0x7fc2704f6ff0, flags=CLONE_VM|CLONE_VFORK|SIGCHLD) = 4913
+munmap(0x7fc2704ee000, 36864)           = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+close(3)                                = 0
+close(5)                                = 0
+close(7)                                = 0
+ioctl(4, FIONBIO, [1])                  = 0
+ioctl(6, FIONBIO, [1])                  = 0
+poll([{fd=4, events=POLLIN}, {fd=6, events=POLLIN}], 2, -1) = 1 ([{fd=6, revents=POLLIN}])
+read(6, "Traceback (most recent call last", 32) = 32
+read(6, "):\n  File \"o.py\", line 3, in <mo", 32) = 32
+read(6, "dule>\n    subprocess.run([\"echo "..., 64) = 64
+read(6, "e \"/usr/lib/python3.6/subprocess"..., 128) = 128
+read(6, ".6/subprocess.py\", line 729, in "..., 256) = 256
+read(6, "ile or directory: 'echo hello > "..., 512) = 81
+read(6, 0x55739c0ccff1, 431)            = -1 EAGAIN (Resource temporarily unavailable)
+poll([{fd=4, events=POLLIN}, {fd=6, events=POLLIN}], 2, -1) = 2 ([{fd=4, revents=POLLHUP}, {fd=6, revents=POLLHUP}])
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=4913, si_uid=1000, si_status=1, si_utime=6, si_stime=0} ---
+read(4, "", 32)                         = 0
+ioctl(6, FIONBIO, [0])                  = 0
+read(6, "", 431)                        = 0
+close(6)                                = 0
+close(4)                                = 0
+wait4(4913, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], 0, NULL) = 4913
+sigaltstack({ss_sp=NULL, ss_flags=SS_DISABLE, ss_size=8192}, NULL) = 0
+munmap(0x7fc2704f7000, 12288)           = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
+
